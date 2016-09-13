@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="mx.jarp.myappsem2.DetalleContacto"
+    android:background="#ffccbc">
+
+    <TextView
+        android:id="@+id/tvConfirmarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/confirmarDatos"
+        android:textStyle="bold"
+        android:textSize="@dimen/size_titulos"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/top_margin_layout1"
+        >
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombreRow1"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_texto"
+            />
+
+        <TextView
+            android:id="@+id/tvNombre2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombreRow2"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_texto"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/top_margin_layout2">
+
+        <TextView
+            android:id="@+id/tvFecNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fecNac1"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_texto"
+            />
+
+        <TextView
+            android:id="@+id/tvFecNac2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fecNac2"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_texto"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/top_margin_layout2">
+
+        <TextView
+            android:id="@+id/tvTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tel1"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_texto"
+            />
+
+        <TextView
+            android:id="@+id/tvTel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tel2"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_texto"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/top_margin_layout2">
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email1"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_texto"
+            />
+
+        <TextView
+            android:id="@+id/tvEmail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email2"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_texto"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/top_margin_layout2">
+
+        <TextView
+            android:id="@+id/tvDescrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion1"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_texto"
+            />
+
+        <TextView
+            android:id="@+id/tvDescrip2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion2"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_texto"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEditar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/espacio_button2"
+        android:onClick="editDatos"/>
+
+</LinearLayout>

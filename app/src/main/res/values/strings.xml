@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyAppSem2</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripcion Contacto</string>
+    <string name="pick_date">Fecha Nacimiento</string>
+    <string name="confirmarDatos">Confirmar Datos</string>
+
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="btnEditar">Editar Datos</string>
+    <string name="btnLimpiar">Limpiar datos</string>
+
+    <string name="nombreRow1">Nombre: </string>
+    <string name="nombreRow2"> No hay datos</string>
+    <string name="fecNac1">Fecha Nacimiento: </string>
+    <string name="fecNac2"> No hay datos</string>
+    <string name="tel1">Telefono: </string>
+    <string name="tel2"> No hay datos</string>
+    <string name="email1">Email: </string>
+    <string name="email2"> No hay datos</string>
+    <string name="descripcion1">Descripcion: </string>
+    <string name="descripcion2"> No hay datos</string>
+</resources>
